@@ -1,8 +1,3 @@
-# ============================================================
-# pipeline/llm.py
-# Groq LLM API call
-# ============================================================
-
 import requests
 from config.settings import GROQ_MODEL, GROQ_API_URL
 from pipeline.prompt_builder import build_prompt
