@@ -1,8 +1,3 @@
-# ============================================================
-# ui/styles.py
-# All CSS styles for the Streamlit app
-# ============================================================
-
 CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
