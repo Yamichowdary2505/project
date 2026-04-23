@@ -1,8 +1,3 @@
-# ============================================================
-# ui/sidebar.py
-# Sidebar rendering — API key, session stats, controls
-# ============================================================
-
 import os
 import streamlit as st
 import pandas as pd
