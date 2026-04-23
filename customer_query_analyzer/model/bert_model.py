@@ -1,8 +1,3 @@
-# ============================================================
-# model/bert_model.py
-# MultiTaskBERT model architecture definition
-# ============================================================
-
 import torch.nn as nn
 from transformers import BertModel
 from config.settings import BERT_BASE_MODEL, DROPOUT
