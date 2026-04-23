@@ -1,7 +1,3 @@
-# ============================================================
-# config/settings.py
-# All constants and configuration for the app
-# ============================================================
 
 # Groq LLM
 GROQ_MODEL  = "llama-3.1-8b-instant"
