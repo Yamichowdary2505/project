@@ -1,8 +1,3 @@
-# ============================================================
-# pipeline/prompt_builder.py
-# Builds prompts for the Groq LLM with full conversation history
-# ============================================================
-
 from config.settings import LOW_CONF_THRESHOLD
 
 
