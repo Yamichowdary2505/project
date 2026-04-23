@@ -1,8 +1,3 @@
-# ============================================================
-# model/classifier.py
-# Text cleaning and BERT inference
-# ============================================================
-
 import re
 import torch
 from config.settings import SENTIMENT_NAMES, LOW_CONF_THRESHOLD, MAX_LENGTH
