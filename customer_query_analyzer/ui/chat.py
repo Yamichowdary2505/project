@@ -1,8 +1,3 @@
-# ============================================================
-# ui/chat.py
-# Chat interface rendering and message processing
-# ============================================================
-
 import time
 import streamlit as st
 from datetime import datetime
