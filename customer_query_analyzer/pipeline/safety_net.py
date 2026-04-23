@@ -1,9 +1,3 @@
-# ============================================================
-# pipeline/safety_net.py
-# Pre-classification safety net for security-critical intents
-# that are NOT present in the CLINC150 dataset.
-# ============================================================
-
 SAFETY_PATTERNS = {
     "unauthorized_access": [
         "someone else", "someone is using", "unauthori", "hacked", "hack",
