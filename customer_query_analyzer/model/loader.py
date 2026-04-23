@@ -1,8 +1,3 @@
-# ============================================================
-# model/loader.py
-# Downloads model from HuggingFace and loads it into memory
-# ============================================================
-
 import os
 import json
 import torch
