@@ -1,8 +1,3 @@
-# ============================================================
-# ui/analytics.py
-# Analytics panel rendering — gauge, bars, pie, intent freq
-# ============================================================
-
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
