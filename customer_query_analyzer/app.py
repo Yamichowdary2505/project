@@ -1,9 +1,3 @@
-# ============================================================
-# app.py
-# Main entry point — Streamlit UI
-# Run: streamlit run app.py
-# ============================================================
-
 import streamlit as st
 
 from ui.styles    import CSS
