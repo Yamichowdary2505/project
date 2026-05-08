@@ -37,13 +37,7 @@ CFG = {
     "sentiment_loss_weight": 0.3,
 
     "fp16"        : True,
-    # ✅ FIX 1: num_workers = 0 on Windows
-    # Windows uses "spawn" for multiprocessing (not "fork" like Linux).
-    # num_workers > 0 causes child processes to re-import the script,
-    # triggering the RuntimeError. Setting 0 disables multiprocessing
-    # entirely — DataLoader runs in the main process. No speed loss on
-    # GPU since the bottleneck is GPU compute, not data loading.
-    "num_workers" : 0,
+    
     "pin_memory"  : True,
 
     "save_every_epoch" : True,
