@@ -461,14 +461,4 @@ if __name__ == "__main__":
     print(f"""
 Total time : {total_mins:.1f} minutes
 Saved to   : {CFG['output_dir']}
-
-Files created:
-  bert_best.pt           <- best model by val intent acc
-  bert_epoch1-10.pt      <- per-epoch checkpoints
-  bert_config.json       <- config used
-  training_history.csv   <- loss and accuracy per epoch
-  vocab.txt + tokenizer  <- tokenizer files
-
-Next step:
-  -> Run 3_t5_training.py
 """)
