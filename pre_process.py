@@ -251,14 +251,4 @@ print(f"\nNull values in train.csv: {nulls} {'✅' if nulls == 0 else '⚠️ Ch
 print("\n" + "=" * 60)
 print("  ✅ PREPROCESSING COMPLETE")
 print("=" * 60)
-print(f"""
-What was produced:
-  processed_data/
-    ├── train.csv            ({len(train_df):,} rows)
-    ├── validation.csv       ({len(val_df):,} rows)
-    ├── test.csv             ({len(test_df):,} rows)
-    └── intent_label_map.json ({len(id2intent)} intents)
 
-Next step:
-  → Run 2_bert_training.py to train intent + sentiment classifier
-""")
